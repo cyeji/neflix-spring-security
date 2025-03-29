@@ -1,0 +1,11 @@
+spring:
+  application:
+  name: neflix-spring-security
+server:
+  ssl:
+    key-store-type: PKCS12
+    key-store: classpath:certificate.p12
+    key-store-password: password
+logging:
+  level:
+    root: INFO # ?? ?? ?? ??
